@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>الصفحة المشاهده </title>
+
+    <link rel="shortcut icon" type="image/png" href="https://ok.okanime.xyz/assets/img/logos/favicon.png">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery.mCustomScrollbar.min.css">
+
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- <script src="assets/index.js?v=987"></script> -->
+    <script src="./assets/JS/popper.min.js"></script>
+    <script src="./assets/JS/bootstrap.min.js"></script>
+    <script src="./assets/JS/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="./assets/JS/jquery.mCustomScrollbar.concat.min.js"></script>
+</head>
+
+<body class="text-right watch-episode ">
+
+
+    <nav class="navbar navbar-expand navbar-dark bg-purple fixed-top">
+        <div class="navbar-brand sidebarCollapse">
+            <a href="" class="toogle-icon">
+                <svg id="brandIcon" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical ml-1"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                </svg>
+            </a>
+            <a href="" class="d-none d-lg-inline">
+                <b>Ok</b>anime
+            </a>
+            <a href="" class="mobile-home d-lg-none">
+                <b>Ok</b>anime
+            </a>
+        </div>
+        <div class="navbar-nav navbar-collapse">
+            <a href="" class="nav-item nav-link d-none d-md-block">الرئيسية</a>
+            <a href="anime-type.html" class="nav-item nav-link d-none d-md-block">الانمي</a>
+            <a href="anime-type.html" class="nav-item nav-link d-none d-md-block ">الأفلام</a>
+            <a href="#" class="nav-item nav-icon d-lg-none toogle-icon sidebarCollapse">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                    <path fill-rule="evenodd"
+                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                </svg>
+            </a>
+            <a href="" class="nav-item nav-icon d-md-none toogle-icon sidebarCollapse">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                </svg>
+            </a>
+            <div class="nav-item d-none d-lg-block">
+                <form class="form-inline d-flex justify-content-center md-form form-sm mt-0" id="SearchBox"
+                    action="/search/">
+                    <input class="form-control form-control-sm ml-3" type="text" placeholder="بحث" aria-label="Search"
+                        name="s">
+                    <button class="btn" type="submit">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                            <path fill-rule="evenodd"
+                                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="navbar-nav text-left  pl-2 left-navs">
+            <a href="" class="nav-item nav-icon text-white d-lg-none">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg>
+            </a>
+            <a href="" class="nav-item nav-icon text-white d-none d-lg-block">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-hourglass-split" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2h-7zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48V8.35zm1 0c0 .701.478 1.236 1.011 1.492A3.5 3.5 0 0 1 11.5 13s-.866-1.299-3-1.48V8.35z" />
+                </svg>
+            </a>
+            <a href="" class="nav-item nav-icon text-white d-none d-lg-block">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bell-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                </svg>
+            </a>
+            <a href="" class="nav-item nav-icon text-white d-lg-none">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>
+            </a>
+            <a href="" class="nav-item no-link bg-violet d-none d-lg-block mr-1 navbar-btn"> تسجيل
+                الدخول </a>
+        </div>
+    </nav>
+
+
+
+
+    <div class="wrapper">
+        <nav id="sidebar" class="sticky-top sidebar">
+
+            <div class="asidebar-menu-item sidebar-menu-item">
+                <ul class="pt-5">
+                    <li class="p-2 text-center d-lg-none ">
+                        <form class="justify-content-center md-form form-sm " action="/search/">
+                            <input class="form-control " type="text" placeholder="بحث" aria-label="Search" name="s">
+                            <button class="btn btn-sm text-white text-center mt-1 bg-violet" style="width: 100%">
+                                بحث
+                            </button>
+                        </form>
+                    </li>
+                    <li class="mt-2">
+                        <a href="/">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+                                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                            </svg>
+                            الرئيسية
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                class="bi bi-clock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                            </svg>
+                            أخر الحلقات
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                            </svg>
+                            أفلام الأنمي
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-emoji-sunglasses-fill"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM2.31 5.243A1 1 0 0 1 3.28 4H6a1 1 0 0 1 1 1v.116A4.22 4.22 0 0 1 8 5c.35 0 .69.04 1 .116V5a1 1 0 0 1 1-1h2.72a1 1 0 0 1 .97 1.243l-.311 1.242A2 2 0 0 1 11.439 8H11a2 2 0 0 1-1.994-1.839A2.99 2.99 0 0 0 8 6c-.393 0-.74.064-1.006.161A2 2 0 0 1 5 8h-.438a2 2 0 0 1-1.94-1.515L2.31 5.243zM4.969 9.75a.5.5 0 1 0-.866.5A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75z" />
+                            </svg>
+                            أنميات الموسم الحالي
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="asidebar-menu-item sidebar-menu-item ">
+                <h6 class="asidebar-menu-title sidebar-menu-title">خدمات</h6>
+                <ul>
+                    <li>
+                        <a href="/" class=" first">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z">
+                                </path>
+                                <path fill-rule="evenodd"
+                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z">
+                                </path>
+                            </svg>
+                            بحث
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-list-stars" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z" />
+                                <path
+                                    d="M2.242 2.194a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.256-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53zm0 4a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.255-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53zm0 4a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.255-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53z" />
+                            </svg>
+                            قائمة الأنمي
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                <path
+                                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                                <path
+                                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                            </svg>
+                            مواعيد الأنميات الحالية
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <script type="c631bc04b5f374b023acd442-text/javascript">
+        atOptions = {
+            'key' : '8c4a78141a92242851f920b5adacf8f4',
+            'format' : 'iframe',
+            'height' : 300,
+            'width' : 160,
+            'params' : {}
+        };
+    </script>
+            <script type="c631bc04b5f374b023acd442-text/javascript"
+                src="//www.highperformanceformat.com/8c4a78141a92242851f920b5adacf8f4/invoke.js"></script> -->
+        </nav>
+
+        <div class="episodepage mt-5">
+            <div class="row" dir="ltr">
+                <div class="col-lg-9 col-xl-9 col-less episode-player p-0" dir="rtl">
+                    <div class="pt-3 container">
+                        <div class="player-container">
+                            <iframe id="player-frame"
+                                src="https://ok.okanime.xyz/uploads/posters/poster-Grisaia-Phantom-Trigger-67755712db4b3.jpg"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <div class="episode-actions bg-dark-purple p-2 m-0">
+                            <div class="row no-gutters">
+                                <div class="col-md-3 p-2 row nextprev-btns ">
+                                    <a href="" class="d-inline col no-link p-0 disabled">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 512 512">
+                                            <path
+                                                d="M500.5 231.4l-192-160C287.9 54.3 256 68.6 256 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2zm-256 0l-192-160C31.9 54.3 0 68.6 0 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2z" />
+                                        </svg>
+                                        التالى
+                                    </a>
+
+                                    <a href=""
+                                        class="d-inline col no-link p-0 pr-2 text-left">
+                                        السابق
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            class="bi bi-chevron-double-left" viewBox="0 0 512 512">
+                                            <path
+                                                d="M11.5 280.6l192 160c20.6 17.2 52.5 2.8 52.5-24.6V96c0-27.4-31.9-41.8-52.5-24.6l-192 160c-15.3 12.8-15.3 36.4 0 49.2zm256 0l192 160c20.6 17.2 52.5 2.8 52.5-24.6V96c0-27.4-31.9-41.8-52.5-24.6l-192 160c-15.3 12.8-15.3 36.4 0 49.2z" />
+                                        </svg>
+                                    </a>
+
+                                </div>
+                                <div class="col-md-6"></div>
+                                <div class="col-md-3 text-left">
+                                    <a href="/"
+                                        class="btn bg-violet no-link d-block">
+                                        تفاصيل الانمي
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-less episode-nav  " dir="rtl">
+                    <div class="player-sidebar ">
+                        <ul class="nav nav-tabs p-1 text-center" id="bigTabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active show" id="watch-tab" data-toggle="tab" href=""
+                                    role="tab" aria-controls="episodes" aria-selected="true">
+                                    <svg style="font-size: 28px!important; margin-bottom: 1px;" width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-play" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" />
+                                    </svg>
+                                    <span>مشاهدة</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="suggestions-tab" data-toggle="tab" href=""
+                                    role="tab" aria-controls="suggestions" aria-selected="false">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-layers"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M3.188 8L.264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l-1.063.567L14.438 10 8 13.433 1.562 10 4.25 8.567 3.187 8z" />
+                                        <path fill-rule="evenodd"
+                                            d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4zM1.563 6L8 9.433 14.438 6 8 2.567 1.562 6z" />
+                                    </svg>
+                                    <span>حلقات</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="download-tab" data-toggle="tab" href="#download" role="tab"
+                                    aria-controls="download" aria-selected="false">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-arrow-down"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                                        <path fill-rule="evenodd"
+                                            d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z" />
+                                    </svg>
+                                    <span>تحميل</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div>
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="watch" role="tabpanel"
+                                    aria-labelledby="episodes">
+                                    <div class="filter-links">
+                                        <ul class="nav nav-pills nav-fill p-1 watch-control" role="tablist">
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link active">الكل</a></li>
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link">LD</a></li>
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link ">SD</a></li>
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link">HD</a></li>
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link">FHD</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="filter-links-container overflow-auto" id="streamlinks">
+                                        <a href="" data-src="https://megamax.me/iframe/dHvUz4YvhNn2t"
+                                            class="no-link ep-link"><span>HD</span>megamax me</a>
+                                        <a href=""
+                                            data-src="https://uqload.net/embed-rx083aqko4rx.html"
+                                            class="no-link ep-link"><span>HD</span>uqload</a>
+                                        <a href=""
+                                            data-src="https://www.ok.ru/videoembed/8912636152538"
+                                            class="no-link ep-link"><span>HD</span>ok ru</a>
+                                        <a href="" data-src="https://voe.sx/e/jrxg5bwvndkq"
+                                            class="no-link ep-link"><span>HD</span>voe sx</a>
+                                        <a href="" data-src="//vidmoly.to/embed-jnfh3lz9hc3n.html"
+                                            class="no-link ep-link"><span>HD</span>vidmoly to</a>
+                                        <a href=""
+                                            data-src="https://mega.nz/embed/yK53VLjb!2C3oLJj8p-EVlSZsys8qdRyzJDbo7kSKON_UPcbXIJE"
+                                            class="no-link ep-link"><span>HD</span>mega</a>
+                                        <a href=""
+                                            data-src="https://www.mp4upload.com/embed-k5z64daowo8m.html"
+                                            class="no-link ep-link"><span>HD</span>mp4upload</a>
+                                        <a href="" data-src="https://sendvid.com/embed/ptd1p7d8"
+                                            class="no-link ep-link"><span>HD</span>sendvid</a>
+                                        <a href=""
+                                            data-src="https://www.ok.ru/videoembed/8912628615898"
+                                            class="no-link ep-link"><span>FHD</span>ok ru</a>
+                                        <a href=""
+                                            data-src="https://mega.nz/embed/3LgBVaKQ!S5uz-ezsNhBrDAJNXpzNPXLir6j-rvybl3QE-7XELGc"
+                                            class="no-link ep-link"><span>FHD</span>mega</a>
+                                        <a href=""
+                                            data-src="https://www.mp4upload.com/embed-mzzxoyxdecg5.html"
+                                            class="no-link ep-link"><span>FHD</span>mp4upload</a>
+                                        <a href=""
+                                            data-src="https://www.ok.ru/videoembed/8912642837210"
+                                            class="no-link ep-link"><span>SD</span>ok ru</a>
+                                        <a href=""
+                                            data-src="https://mega.nz/embed/nX5WRAjR!GHo_iuNo1SYcmFgakxaDqeyfqr9N6Jc7m2WZHzp0rhg"
+                                            class="no-link ep-link"><span>SD</span>mega</a>
+                                        <a href=""
+                                            data-src="https://www.mp4upload.com/embed-j1pnzxh1wti3.html"
+                                            class="no-link ep-link"><span>SD</span>mp4upload</a>
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade " id="suggestions" role="tabpanel"
+                                    aria-labelledby="suggestions">
+                                    <div class="filter-links p-2">
+                                        <input type="number" id="episode-search-input" class="search-input"
+                                            style="width: 100%;" placeholder="البحث عن حلقة">
+                                    </div>
+                                    <div class="filter-links-container p-2 overflow-auto">
+                                        <a href="/" class="no-link ep-link ">
+
+                                            الحلقة 1
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 2
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 3
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 4
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 5
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 6
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 7
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 8
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 9
+                                        </a>
+                                        <a href="" class="no-link ep-link ">
+
+                                            الحلقة 10
+                                        </a>
+                                        <a href=""
+                                            class="no-link ep-link active">
+
+                                            الحلقة 11
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade " id="download" role="tabpanel" aria-labelledby="download">
+                                    <div class="filter-links">
+                                        <ul class="nav nav-pills nav-fill p-1 watch-control" role="tablist">
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link active">الكل</a></li>
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link">LD</a></li>
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link ">SD</a></li>
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link">HD</a></li>
+                                            <li class="nav-item"><a href="" data-toggle="tab"
+                                                    class="nav-link">FHD</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="filter-links-container p-2 overflow-auto">
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>SD</span>file-upload org</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>SD</span>mp4upload</a>
+                                        <a href=""
+                                            class="no-link ep-link" target="_blank"><span>SD</span>mega</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>SD</span>uupbom</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>HD</span>voe sx</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>HD</span>file-upload org</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>HD</span>mp4upload</a>
+                                        <a href=""
+                                            class="no-link ep-link" target="_blank"><span>HD</span>mega</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>HD</span>uupbom</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>HD</span>vidmoly me</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>FHD</span>mp4upload</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>FHD</span>file-upload org</a>
+                                        <a href=""
+                                            class="no-link ep-link" target="_blank"><span>FHD</span>mega</a>
+                                        <a href="" class="no-link ep-link"
+                                            target="_blank"><span>FHD</span>uupbom</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-9 col-xl-9 user-block  rounded mt-4 p-3 " dir="rtl">
+                    <a href="/"
+                        class="no-link">
+                        <h1> okanime الحلقة 11 من انمي Grisaia: Phantom Trigger مترجمة </h1>
+                    </a>
+                    <a href="/" class="no-link">
+                        <h2> انمي مترجم okanime Grisaia: Phantom Trigger </h2>
+                    </a>
+                    <h5 class="mt-1 p-2">معلومات عن المسلسل : </h5>
+                    <p>
+                        السلسلة تحكي قصة مجموعة من الفتيات في وحدة خاصة تدعى سورد، تسعى لمحاربة الإرهاب وحماية الناس من
+                        التهديدات.
+                    </p>
+                    <h5 class="mt-2 p-2">معلومات عن الحلقة : </h5>
+                    <p>
+                        السلسلة تحكي قصة مجموعة من الفتيات في وحدة خاصة تدعى سورد، تسعى لمحاربة الإرهاب وحماية الناس من
+                        التهديدات.
+                    </p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./assets/JS/jquery-3.6.0.min.js"></script>
+
+
+    <!-- Bootstrap -->
+    <script src="./assets/JS/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+        
+    <script src="./cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+    data-cf-settings="8ad3b5334f60cf9a6f0c0a75-|49" defer></script>
+<!-- ملف السكريبت الرئيسي الخاص بالموقع -->
+<script src="./assets/index.js?v=987"></script>
+    <!-- jQuery mCustomScrollbar -->
+    <script src="./assets/JS/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+    <!-- Cloudflare Rocket Loader (إذا كنت تستخدمه) -->
+
+
+    <!-- jQuery -->
+    <script src="./assets/JS/jquery-3.3.1.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <!-- Popper.js (مطلوب لبعض ميزات Bootstrap) -->
+    <script src="./assets/JS/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+
+        <script type="8ad3b5334f60cf9a6f0c0a75-text/javascript"
+        src="./assets/JS/invoke.js"></script>
+
+</body>
+
+</html>

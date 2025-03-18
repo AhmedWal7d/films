@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> افلام الانمي</title>
+
+    <link rel="shortcut icon" type="image/png" href="https://ok.okanime.xyz/assets/img/logos/favicon.png">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <script src="./assets/JS/popper.min.js"></script>
+    <script src="./assets/JS/bootstrap.min.js"></script>
+    <script src="./assets/JS/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="./assets/JS/jquery.mCustomScrollbar.concat.min.js"></script>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+</head>
+
+
+
+
+
+<body class="text-right animelist ">
+<nav class="navbar navbar-expand navbar-dark bg-purple fixed-top">
+    <div class="navbar-brand sidebarCollapse"  >
+        <a href="javascript:void(0)" class="toogle-icon">
+            <svg id="brandIcon" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical ml-1" fill="currentColor">
+                <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+            </svg>
+        </a>
+        <a href="javascript:void(0)" class="d-none d-lg-inline">
+            <b>Ok</b>anime
+        </a>
+        <a href="https://ok.okanime.xyz/" class="mobile-home d-lg-none">
+            <b>Ok</b>anime
+        </a>
+    </div>
+    <div class="navbar-nav navbar-collapse">
+        <a href="" class="nav-item nav-link d-none d-md-block">الرئيسية</a>
+        <a href="/" class="nav-item nav-link d-none d-md-block">الانمي</a>
+        <a href="/" class="nav-item nav-link d-none d-md-block ">الأفلام</a>
+        <a href="#" class="nav-item nav-icon d-lg-none toogle-icon sidebarCollapse">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+            </svg>
+        </a>
+        <a href="" class="nav-item nav-icon d-md-none toogle-icon sidebarCollapse">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg>
+        </a>
+        <div class="nav-item d-none d-lg-block">
+            <form class="form-inline d-flex justify-content-center md-form form-sm mt-0" id="SearchBox" action="/search/">
+                <input class="form-control form-control-sm ml-3" type="text" placeholder="بحث"
+                       aria-label="Search" 
+                       name="s"
+                       >
+                <button class="btn" type="submit">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="navbar-nav text-left  pl-2 left-navs">
+        <a href="" class="nav-item nav-icon text-white d-lg-none">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+            </svg>
+        </a>
+        <a href="" class="nav-item nav-icon text-white d-none d-lg-block">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-hourglass-split" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2h-7zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48V8.35zm1 0c0 .701.478 1.236 1.011 1.492A3.5 3.5 0 0 1 11.5 13s-.866-1.299-3-1.48V8.35z"/>
+            </svg>
+        </a>
+        <a href="" class="nav-item nav-icon text-white d-none d-lg-block">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bell-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+            </svg>
+        </a>
+        <a href="" class="nav-item nav-icon text-white d-lg-none">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+        </a>
+        <a href="" class="nav-item no-link bg-violet d-none d-lg-block mr-1 navbar-btn"  > تسجيل الدخول </a>
+    </div>
+</nav>
+
+<div class="wrapper">
+            <nav id="sidebar" class="sticky-top sidebar">
+    
+    <div class="asidebar-menu-item sidebar-menu-item">
+        <ul class="pt-5">
+             <li class="p-2 text-center d-lg-none ">
+                <form class="justify-content-center md-form form-sm " action="//">
+                    <input class="form-control " type="text" placeholder="بحث"
+                           aria-label="Search"
+                            name="s"
+                            >
+                    <button class="btn btn-sm text-white text-center mt-1 bg-violet" style="width: 100%">
+                        بحث
+                    </button>
+                </form>
+            </li>
+            <li class="mt-2">
+                <a href="/">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                        <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    </svg>
+                    الرئيسية 
+                </a>
+            </li>
+            <li>
+                <a href=""><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    </svg>
+                    أخر الحلقات
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                    </svg>
+                    أفلام الأنمي
+                </a>
+            </li>
+            <li>
+                <a href="/">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-emoji-sunglasses-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM2.31 5.243A1 1 0 0 1 3.28 4H6a1 1 0 0 1 1 1v.116A4.22 4.22 0 0 1 8 5c.35 0 .69.04 1 .116V5a1 1 0 0 1 1-1h2.72a1 1 0 0 1 .97 1.243l-.311 1.242A2 2 0 0 1 11.439 8H11a2 2 0 0 1-1.994-1.839A2.99 2.99 0 0 0 8 6c-.393 0-.74.064-1.006.161A2 2 0 0 1 5 8h-.438a2 2 0 0 1-1.94-1.515L2.31 5.243zM4.969 9.75a.5.5 0 1 0-.866.5A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75z"/>
+                    </svg>
+                    أنميات الموسم الحالي            
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <div class="asidebar-menu-item sidebar-menu-item ">
+        <h6 class="asidebar-menu-title sidebar-menu-title">خدمات</h6>
+        <ul>
+            <li>
+                <a href="/" class=" first">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"></path>
+                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"></path>
+                    </svg>
+                    بحث 
+                </a>
+            </li>
+            <li>
+                <a href="\/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-stars" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"/>
+                        <path d="M2.242 2.194a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.256-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53zm0 4a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.255-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53zm0 4a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.255-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53z"/>
+                    </svg>
+                    قائمة الأنمي                
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                        <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                    </svg>
+                    مواعيد الأنميات الحالية
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- <script type="25615570a6ff9c1d7cc13ab7-text/javascript" src="//www.highperformanceformat.com/8c4a78141a92242851f920b5adacf8f4/invoke.js"></script> -->
+</nav>
+            <div class="content container mt-5">
+        <div class="container">
+                <div class="section container mt-5" style="min-height: 80px">
+        <div class="section-content">
+            <div class="owl-carousel">
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/أكشن.svg" 
+                                alt=" انميا أكشن  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                أكشن
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/حربي.svg" 
+                                alt=" انميا حربي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                حربي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/غموض.svg" 
+                                alt=" انميا غموض  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                غموض
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/خارق للعادة.svg" 
+                                alt=" انميا خارق للعادة  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                خارق للعادة
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/دراما.svg" 
+                                alt=" انميا دراما  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                دراما
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/فنتازيا.svg" 
+                                alt=" انميا فنتازيا  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                فنتازيا
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/شونين.svg" 
+                                alt=" انميا شونين  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                شونين
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/مغامرات.svg" 
+                                alt=" انميا مغامرات  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                مغامرات
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/العاب.svg" 
+                                alt=" انميا العاب  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                العاب
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/رومانسي.svg" 
+                                alt=" انميا رومانسي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                رومانسي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/كوميدي.svg" 
+                                alt=" انميا كوميدي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                كوميدي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/سحر.svg" 
+                                alt=" انميا سحر  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                سحر
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/خيال علمي.svg" 
+                                alt=" انميا خيال علمي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                خيال علمي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/محاكاة ساخرة.svg" 
+                                alt=" انميا محاكاة ساخرة  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                محاكاة ساخرة
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/قوى خارقة.svg" 
+                                alt=" انميا قوى خارقة  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                قوى خارقة
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/رعب.svg" 
+                                alt=" انميا رعب  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                رعب
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/د/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/نفسي.svg" 
+                                alt=" انميا نفسي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                نفسي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/سينين.svg" 
+                                alt=" انميا سينين  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                سينين
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/مدرسي.svg" 
+                                alt=" انميا مدرسي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                مدرسي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/فنون قتالية.svg" 
+                                alt=" انميا فنون قتالية  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                فنون قتالية
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/ميكا.svg" 
+                                alt=" انميا ميكا  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                ميكا
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/اثارة.svg" 
+                                alt=" انميا اثارة  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                اثارة
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/شياطين.svg" 
+                                alt=" انميا شياطين  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                شياطين
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/إيتشي.svg" 
+                                alt=" انميا إيتشي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                إيتشي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/بوليسي.svg" 
+                                alt=" انميا بوليسي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                بوليسي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/فضائي.svg" 
+                                alt=" انميا فضائي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                فضائي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/شريحة من الحياة.svg" 
+                                alt=" انميا شريحة من الحياة  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                شريحة من الحياة
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/تاريخي.svg" 
+                                alt=" انميا تاريخي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                تاريخي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/ساموراي.svg" 
+                                alt=" انميا ساموراي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                ساموراي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/مصاصي دماء.svg" 
+                                alt=" انميا مصاصي دماء  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                مصاصي دماء
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/حريم.svg" 
+                                alt=" انميا حريم  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                حريم
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/شوجو.svg" 
+                                alt=" انميا شوجو  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                شوجو
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="\">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/أطفال.svg" 
+                                alt=" انميا أطفال  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                أطفال
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/رياضي.svg" 
+                                alt=" انميا رياضي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                رياضي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/سيارات.svg" 
+                                alt=" انميا سيارات  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                سيارات
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/شوجو آي.svg" 
+                                alt=" انميا شوجو آي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                شوجو آي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/جوسي.svg" 
+                                alt=" انميا جوسي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                جوسي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/موسيقي.svg" 
+                                alt=" انميا موسيقي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                موسيقي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/شونين اي.svg" 
+                                alt=" انميا شونين اي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                شونين اي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="/">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/هنتاي.svg" 
+                                alt=" انميا هنتاي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                هنتاي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/ياوي.svg" 
+                                alt=" انميا ياوي  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                ياوي
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/يوري.svg" 
+                                alt=" انميا يوري  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                يوري
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="item border genre-card shadow-sm rounded " >
+                        <a href="//">
+                            <div class="card-image">
+                                <img src="https://ok.okanime.xyz/assets/genres/جنون.svg" 
+                                alt=" انميا جنون  | اوك انمي - Okanime">
+                            </div>
+                            <div class="card-name">
+                                جنون
+                            </div>
+                        </a>
+                    </div>
+                            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <!-- <script async="async" data-cfasync="false" src="//pl25791001.profitablecpmrate.com/9d040385fd86739d5288bea7a8d2d2bd/invoke.js"></script> -->
+        <div id="container-9d040385fd86739d5288bea7a8d2d2bd"></div>
+        <h6 class="mb-3 text-underline"> أنواع الأنمي</h6>
+        <div class="btn-group" role="group" >
+                    <a href="/" class="btn btn-small btn-outline-dark ml-1 btn-listing bg-light-violet rounded">فيلم</a>
+                    <a href="/" class="btn btn-small btn-outline-dark ml-1 btn-listing bg-light-violet rounded">أونا</a>
+                    <a href="/" class="btn btn-small btn-outline-dark ml-1 btn-listing bg-light-violet rounded">أوفا</a>
+                    <a href="//" class="btn btn-small btn-outline-dark ml-1 btn-listing bg-light-violet rounded">حلقة خاصة</a>
+                    <a href="/" class="btn btn-small btn-outline-dark ml-1 btn-listing bg-light-violet rounded">تلفزيون</a>
+                </div>
+        <h6 class="mt-3 mb-3 text-underline"> مواسم الأنمي</h6>
+        <nav class="nav nav-pills filters">
+            <button class="btn text-sm-center bg-light-violet nav-link active" data-filter="currentseason"> السنة الحالية  </button>
+            <button class="btn text-sm-center bg-light-violet nav-link" data-filter="all">الكل</button>
+            <button class="btn text-sm-center bg-light-violet nav-link" data-filter="خريف">خريف</button>
+            <button class="btn text-sm-center bg-light-violet nav-link" data-filter="صيف">صيف</button>
+            <button class="btn text-sm-center bg-light-violet nav-link" data-filter="شتاء">شتاء</button>
+            <button class="btn text-sm-center bg-light-violet nav-link" data-filter="ربيع">ربيع</button>
+        </nav>
+        <button class="bg-transparent btn  border border-dark bg-light mt-2">شتاء 2025</button>
+
+
+    </div>
+    <div class="section container mt-5">
+        <div class="title-area ">
+            <hr>
+            <h1 class="text-underline">
+               فيلم 
+            </h1>
+        </div>
+        <div class="section-content mt-3">
+            <div class="row no-gutters">
+                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Ansatsu-Kyoushitsu-365-nichi-no-Jikan-5f07353504e6d.jpg" 
+            alt="Ansatsu Kyoushitsu: 365-nichi no Jikan | اوك انمي - Okanime"/>
+            <a href="https://ok.okanime.xyz/anime/ansatsu-kyoushitsu-365-nichi-no-jikan/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Ansatsu Kyoushitsu: 365-nichi no Jikan
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Ansatsu Kyoushitsu: 365-nichi no Jikan</h3>
+            <small class="text-muted">خريف 2016</small>
+            <ul>
+                                    <li>أكشن</li>
+                                    <li>شونين</li>
+                                    <li>كوميدي</li>
+                                    <li>مدرسي</li>
+                            </ul>
+            <p class="text-muted" >
+                الفيلم هو ملخص لأحداث انمي Ansatsu Kyoushitsu ويضم بعض المشاهد الجديدة.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Ashita-Sekai-ga-Owaru-toshitemo-5f07388eb5622.jpg" 
+            alt="Ashita Sekai ga Owaru toshitemo | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Ashita Sekai ga Owaru toshitemo
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="" class="anime-details shadow p-2">
+            <h3>Ashita Sekai ga Owaru toshitemo</h3>
+            <small class="text-muted">خريف 2019</small>
+            <ul>
+                                    <li>دراما</li>
+                                    <li>رومانسي</li>
+                            </ul>
+            <p class="text-muted" >
+                قصة فيلم Ashita Sekai ga Owaru toshitemo تدور حول شين الذي أغلق قلبه منذ وفاة والدته وهو صغير كانت صديقة طفولته كوتوري تعتني به منذ ذلك الحين الآن بعد أن أصبحوا في السنة الثالثة من المدرسة الثانوية ، ويبدو أنهم يمكنهم في النهاية المضي قدمًا ، ظهر شين آخر من يابان أخرى فجأة أمامهم .
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Black-Fox-5f0744fd99064.jpg" 
+            alt="Black Fox | اوك انمي - Okanime"/>
+            <a href="https://ok.okanime.xyz/anime/black-fox/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="">
+                    Black Fox
+                </a>
+            </h4>
+            <h5>
+                <a href="">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="" class="anime-details shadow p-2">
+            <h3>Black Fox</h3>
+            <small class="text-muted">خريف 2019</small>
+            <ul>
+                                    <li>أكشن</li>
+                            </ul>
+            <p class="text-muted" >
+                قصة أنمي Black Fox تدور في سكن النينجا الواقع في زاوية ما من مدينة مستقبلية، تعيش ريكّا الابنة الكبرى لعشيرة نينجا التي تطمح بأن تكون كوالدها الباحث. بينما هي تمضي في حياتها بشكل طبيعي في إحدى الأيام، يتعرض بيت ريكّا إلى هجوم مفاجىء وتحشر في زاوية فما الذي ستفعله لتتجاوز هذه الأزمة؟
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Birthday-Wonderland-5f074944767ff.jpg" 
+            alt="Birthday Wonderland | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="">
+                    Birthday Wonderland
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Birthday Wonderland</h3>
+            <small class="text-muted">ربيع 2019</small>
+            <ul>
+                                    <li>فنتازيا</li>
+                                    <li>مغامرات</li>
+                            </ul>
+            <p class="text-muted" >
+                قصة فيلم Birthday Wonderland تتحدث عن أكاني، وهي فتاة لا تملك الثقة بنفسها. في اليوم الذي يسبق عيد ميلادها، تقابل الخيميائي الغامض هيبوكراتس وتلميذه بيبو، اللذان يخبرانها بأنهما في مهمة لإنقاذ العالم، ينطلقون معًا من الطابق السفلي لـ “بلاد العجائب، حيث وجدت أكاني نفسها أصبحت منقذة بلاد العجائب.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Boku-no-Hero-Academia-the-Movie-1-Futari-no-Hero-5f075415ec072.jpg" 
+            alt="Boku no Hero Academia the Movie 1: Futari no Hero | اوك انمي - Okanime"/>
+            <a href="" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="">
+                    Boku no Hero Academia the Movie 1: Futari no Hero
+                </a>
+            </h4>
+            <h5>
+                <a href="">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="" class="anime-details shadow p-2">
+            <h3>Boku no Hero Academia the Movie 1: Futari no Hero</h3>
+            <small class="text-muted">صيف 2018</small>
+            <ul>
+                                    <li>أكشن</li>
+                                    <li>خارق للعادة</li>
+                                    <li>شونين</li>
+                            </ul>
+            <p class="text-muted" >
+                يتلقى Deku و All Might دعوة إلى معرض I-Expo ، المعرض العالمي الرائد لقدرات Quirk وابتكارات منتجات البطل! وسط الإثارة والرعاة والإيجابيات من جميع أنحاء ، يلتقي Deku ميليسا ، وهي فتاة Quirkless . فجأة ، يحصل اختراق الأشرار على نظام الأمن المتميز من I-Expo من قبل الأوغاد ، ويتم وضع خطة شريرة. إنه تهديد خطير لمجتمع الأبطال ، ورجل واحد يحمل مفتاح كل شيء - رمز السلام ، All Might.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Detective-Conan-Movie-23-The-Fist-of-Blue-Sapphire-5f08670cc2880.jpg" 
+            alt="Detective Conan Movie 23: The Fist of Blue Sapphire | اوك انمي - Okanime"/>
+            <a href="" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Detective Conan Movie 23: The Fist of Blue Sapphire
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Detective Conan Movie 23: The Fist of Blue Sapphire</h3>
+            <small class="text-muted">ربيع 2019</small>
+            <ul>
+                                    <li>أكشن</li>
+                                    <li>غموض</li>
+                                    <li>دراما</li>
+                                    <li>شونين</li>
+                                    <li>كوميدي</li>
+                                    <li>بوليسي</li>
+                            </ul>
+            <p class="text-muted" >
+                يجمع هذا الفيلم بين كونان شينتشي بخصمه الأزلي “كايتو كيد” بعد آخر مرة تقابلا فيها من خلال الفيلم الـ 19 Sunflowers of Inferno ، وبالإضافة لهذا اللقاء المُرتقب، فأنه لأول مرة ستدور أحداث أحد أفلام كونان خارج حدود اليابان، وتحديدًا في سنغافورة، كما سيشهد هذا الفيلم ترسيم شخصيّة “ماكوتو كيوجوكو” بشكل فاعل في أحد أفلام السلسلة، وكان قد حظى بشعبية كبيرة في الأنمي منذ ظهوره في الحلقات الرئيسية (بدءً من 153) باتقانه لفنون القتال ولتفانيه وإخلاصه وكذلك علاقة الحب التي جمعته بـ “سونوكو” الصديقة المقرّبة لـ “ران “ .
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Ginga-Eiyuu-Densetsu-Die-Neue-These-Seiran-1-5f086c83ee92b.jpg" 
+            alt="Ginga Eiyuu Densetsu: Die Neue These - Seiran 1 | اوك انمي - Okanime"/>
+            <a href="" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Ginga Eiyuu Densetsu: Die Neue These - Seiran 1
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="" class="anime-details shadow p-2">
+            <h3>Ginga Eiyuu Densetsu: Die Neue These - Seiran 1</h3>
+            <small class="text-muted">صيف 2019</small>
+            <ul>
+                                    <li>أكشن</li>
+                                    <li>حربي</li>
+                                    <li>دراما</li>
+                                    <li>خيال علمي</li>
+                                    <li>فضائي</li>
+                            </ul>
+            <p class="text-muted" >
+                أثناء بعثة كارثية، تم تدمير أسطول تحالف “الكواكب الحرة” بواسطة أسطول “الإمبراطورية المجرية” للأدميرال “راينهارد فون لوهينجرام” وقد كانت الأضرار مدمرة لأسطول التحالف القوي المكون من ثلاثين مليون رجل. بناءً على أوامر الأدميرال “لاسال لوبوس” الماكر، على الناجين الآن التجمع معا من أجل إعادة الضربة لهم.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Ginga-Eiyuu-Densetsu-Die-Neue-These-Seiran-3-5f086ca9ea7ef.jpg" 
+            alt="Ginga Eiyuu Densetsu: Die Neue These - Seiran 3 | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Ginga Eiyuu Densetsu: Die Neue These - Seiran 3
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Ginga Eiyuu Densetsu: Die Neue These - Seiran 3</h3>
+            <small class="text-muted">خريف 2019</small>
+            <ul>
+                                    <li>أكشن</li>
+                                    <li>حربي</li>
+                                    <li>دراما</li>
+                                    <li>خيال علمي</li>
+                                    <li>فضائي</li>
+                            </ul>
+            <p class="text-muted" >
+                تدور احذاث هذا الفلم حول الموسم الثاني من Ginga Eiyuu Densetsu: Die Neue These الجزء 3.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Haikara-san-ga-Tooru-Movie-2-Hana-no-Tokyo-Dai-Roman-5f086f0c29a01.jpg" 
+            alt="Haikara-san ga Tooru Movie 2: Hana no Tokyo Dai Roman | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Haikara-san ga Tooru Movie 2: Hana no Tokyo Dai Roman
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Haikara-san ga Tooru Movie 2: Hana no Tokyo Dai Roman</h3>
+            <small class="text-muted">خريف 2018</small>
+            <ul>
+                                    <li>رومانسي</li>
+                                    <li>كوميدي</li>
+                                    <li>تاريخي</li>
+                                    <li>شوجو</li>
+                            </ul>
+            <p class="text-muted" >
+                قصة الفيلم تدور حول بينيو &quot;هيكارا سان&quot; هانامورا ، التي فقدت والدتها عندما كانت صغيرة جدًا ، وقد قام والدها ، وهو مسؤول رفيع المستوى في الجيش الياباني برعايتها. نتيجة لذلك ، نمت لتصبح الفتاة المسترجلة. على عكس المفاهيم اليابانية التقليدية عن الأنوثة ، ولا تهتم بالأعمال المنزلية بقدر اهتمامها بالأدب. كما أنها ترفض فكرة الزيجات المدبرة وتؤمن بحق المرأة في الحياة المهنية والزواج من أجل الحب.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Hibike-Euphonium-Movie-3-Chikai-no-Finale-5f086fe9add4e.jpg" 
+            alt="Hibike! Euphonium Movie 3: Chikai no Finale | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Hibike! Euphonium Movie 3: Chikai no Finale
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Hibike! Euphonium Movie 3: Chikai no Finale</h3>
+            <small class="text-muted">ربيع 2019</small>
+            <ul>
+                                    <li>دراما</li>
+                                    <li>مدرسي</li>
+                                    <li>موسيقي</li>
+                            </ul>
+            <p class="text-muted" >
+                أول فلمين هم عبارة عن ملخص لأحداث الأنمي , أما أحداث هذا الفلم الثالث فهي عبارة عن أحداث جديدة للسلسلة.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-K-Seven-Stories-Movie-1-R-B-Blaze-5f087746253ff.jpg" 
+            alt="K: Seven Stories Movie 1 - R:B - Blaze | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    K: Seven Stories Movie 1 - R:B - Blaze
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>K: Seven Stories Movie 1 - R:B - Blaze</h3>
+            <small class="text-muted">صيف 2018</small>
+            <ul>
+                                    <li>أكشن</li>
+                                    <li>خارق للعادة</li>
+                                    <li>دراما</li>
+                                    <li>قوى خارقة</li>
+                            </ul>
+            <p class="text-muted" >
+                مؤخرًا، الملك الأحمر &quot; ميكوتو سوه &quot; يعاني من ضغط شديد لمحاولته إحكام السيطرة على قوته المهوله . وفي هذه الأثناء يتم إختيار &quot; ريزي موناكَتا &quot; ليكون الملك الجديد.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Kuroko-no-Basket-Movie-2-Winter-Cup-Namida-no-Saki-e-5f087d590ee72.jpg" 
+            alt="Kuroko no Basket Movie 2: Winter Cup - Namida no Saki e | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Kuroko no Basket Movie 2: Winter Cup - Namida no Saki e
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Kuroko no Basket Movie 2: Winter Cup - Namida no Saki e</h3>
+            <small class="text-muted">خريف 2016</small>
+            <ul>
+                                    <li>شونين</li>
+                                    <li>مدرسي</li>
+                                    <li>رياضي</li>
+                            </ul>
+            <p class="text-muted" >
+                يعتبر هذا الفيلم الثاني من سلسلة افلام Kuroko no Basket.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Kuroko-no-Basket-Movie-4-Last-Game-5f087d718a9c6.jpg" 
+            alt="Kuroko no Basket Movie 4: Last Game | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Kuroko no Basket Movie 4: Last Game
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Kuroko no Basket Movie 4: Last Game</h3>
+            <small class="text-muted">شتاء 2017</small>
+            <ul>
+                                    <li>شونين</li>
+                                    <li>مدرسي</li>
+                                    <li>رياضي</li>
+                            </ul>
+            <p class="text-muted" >
+                قصة فيلم Kuroko no Basket Movie 4: Last Game تدور حول فريق أمريكي لكرة السلة في الشوارع يعرف باسم جابروك جاء إلى اليابان، وسخر من لاعبي كرة السلة اليابانيين بعد فوزهم السهل. المدرب كاجيتورا يطلب مساعدة اللاعبين الوحيدين الذين يمكنهم هزيمة الفريق الامريكي: جيل المعجزات، وكاغامي تايغا.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-Made-in-Abyss-Movie-3-Fukaki-Tamashii-no-Reimei-5f087dccd822a.jpg" 
+            alt="Made in Abyss Movie 3: Fukaki Tamashii no Reimei | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    Made in Abyss Movie 3: Fukaki Tamashii no Reimei
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="/" class="anime-details shadow p-2">
+            <h3>Made in Abyss Movie 3: Fukaki Tamashii no Reimei</h3>
+            <small class="text-muted">شتاء 2020</small>
+            <ul>
+                                    <li>غموض</li>
+                                    <li>دراما</li>
+                                    <li>فنتازيا</li>
+                                    <li>مغامرات</li>
+                                    <li>خيال علمي</li>
+                            </ul>
+            <p class="text-muted" >
+                قصة فيلم Made in Abyss Movie 3: Fukaki Tamashii no Reimei تتمة لاحداث الفيلم الثاني .. وتدور احداثه حول ستمرار “ريكو” و“ريغو” و“ناناشي” في طريقهم إلى أعماق الهاوية مغادرين الطبقة الخامسة “بحر الجثث” ليلتقو “بوندرود” الغامض وهو الصافرة البيضاء الأسطوري الذي يحوم ظله حول ماضي “ناناشي” المضطرب.
+            </p>
+        </a>
+    </div>
+</div>                                    
+
+
+<div class="col-6 col-sm-4 col-lg-3 col-xl-2dot4 ">
+    <div class="anime-card anime-hover">
+        <div class="anime-image" >
+            <img class="img-responsive" src="https://ok.okanime.xyz/uploads/posters/poster-One-Piece-Movie-14-Stampede-5f0881c4a295a.jpg" 
+            alt="One Piece Movie 14: Stampede | اوك انمي - Okanime"/>
+            <a href="/" class="clickable"></a>
+        </div>
+        <div class="anime-title">
+            <h4>
+                <a href="/">
+                    One Piece Movie 14: Stampede
+                </a>
+            </h4>
+            <h5>
+                <a href="/">
+                    عدد الحلقات 1
+                </a>
+            </h5>
+        </div>
+        <a href="" class="anime-details shadow p-2">
+            <h3>One Piece Movie 14: Stampede</h3>
+            <small class="text-muted">صيف 2019</small>
+            <ul>
+                                    <li>أكشن</li>
+                                    <li>خارق للعادة</li>
+                                    <li>دراما</li>
+                                    <li>فنتازيا</li>
+                                    <li>شونين</li>
+                                    <li>مغامرات</li>
+                                    <li>كوميدي</li>
+                            </ul>
+            <p class="text-muted" >
+                قصة فيلم One Piece Movie 14: Stampede تدور حول مهرجان القراصنة الذي يُقام كل بضعة سنوات، يذهب لوفي وطاقمه إليه لصَيْد كنز ملك القراصنة جول دي وجر، ولكنهم يتفاجأون بأن المهرجان مجرد غطاء لما هو أعظم.
+            </p>
+        </a>
+    </div>
+</div>     
+
+
+
+
+</div>
+        </div>
+        <div id="pagination">
+                <nav>
+                        <ul class="pagination">
+
+                            <li class="page-item disabled">
+                    <span class="page-link">&laquo;&nbsp;السابق</span>
+                </li>
+            
+            
+                                                <li class="page-item active">
+                        <span class="page-link">1</span>
+                    </li>
+                
+                                                <li class="page-item">
+                        <a class="page-link" href="/">2</a>
+                    </li>
+                
+                                                <li class="page-item">
+                        <a class="page-link" href="/">3</a>
+                    </li>
+                
+                                                <li class="page-item">
+                        <a class="page-link" href="/">4</a>
+                    </li>
+                
+                                                <li class="page-item">
+                        <a class="page-link" href="/">5</a>
+                    </li>
+                
+                                                <li class="page-item">
+                        <a class="page-link" href="/6">6</a>
+                    </li>
+                
+            
+                                                                        <li class="page-item disabled">
+                            <span class="page-link">&hellip;</span>
+                        </li>
+                                                    <li class="page-item">
+                    <a class="page-link" href="/">18</a>
+                </li>
+            
+                            <li class="page-item">
+                    <a class="page-link" rel="next" href="">التالي&nbsp;&raquo;</a>
+                </li>
+                    </ul>
+    </nav>
+
+        </div>
+    </div>
+        </div>
+                     <footer class="w-100 py-4 flex-shrink-0 " >
+ <hr>
+    <div class="container py-4">
+        <div class="row ">
+            <div class="col-lg-4 col-md-6">
+                <h5 class=" text-dark">Okanime - اوك انمي </h5>
+                <p class="small text-muted mb-0">جميع الحقوق محفوظة لموقع   © <a class="text-dark" href="/">اوكي انمي</a> </p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-dark">
+                <h6 class="text-dark mb-3">معلومات عنا</h6>
+                <ul class="list-unstyled text-muted text-right pr-0">
+                    <li><a class="small text-dark" href="/">Okanime</a></li>
+                    <li><a class="small text-dark" href="/">اوك انمي</a></li>
+                    <li><a class="small text-dark" href="//">DMCA</a></li>
+                    <li><a class="small text-dark" href="/">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                            </div>
+                    </div>
+    </div>
+</footer>
+            </div>
+            
+        </div>
+
+
+
+
+<!-- مكتبة jQuery (يجب تحميلها أولاً قبل أي مكتبة تعتمد عليها) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Popper.js (مطلوب لبعض ميزات Bootstrap) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+<!-- مكتبة Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- jQuery mCustomScrollbar -->
+<script src="./assets/JS/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<!-- سكريبت تهيئة الـ Slider -->
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            rtl: true,
+            loop: false,
+            navText: [
+                "<div class='nav-button owl-prev carousel-btn'>‹</div>",
+                "<div class='nav-button owl-next carousel-btn'>›</div>"
+            ],
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive:{
+                0: { items: 3 },
+                600: { items: 6 },
+                1000: { items: 12 }
+            }
+        });
+
+        // عرض المواسم الحالية فقط عند التحميل
+        var currentYear = new Date().getFullYear();
+        $('.btn-listing[data-attr-year="'+currentYear+'"]').show();
+
+        // زر تغيير الموسم
+        $('.filters .nav-link').click(function(){
+            var season = $(this).data('filter');
+            $('.seasons .btn-listing').hide();
+            $('.seasons .btn-listing[data-attr-season="'+season+'"]').show();
+            if(season == 'all'){
+                $('.seasons .btn-listing').show();
+            }
+            if(season == 'currentseason'){
+                $('.seasons .btn-listing[data-attr-year="'+currentYear+'"]').show();
+            }
+        });
+    });
+</script>
+
+<!-- ملف السكريبت الرئيسي الخاص بالموقع -->
+<script src="./assets/index.js?v=987"></script>
+
+</html>
